@@ -1,12 +1,13 @@
 .body {
-  max-width: 320px;
-  max-height: 1024px;
+  width: 320px;
+  height: 1024px;
+  margin: 0px;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  min-width: 320px;
-  height: 844px;
+  width: 320px;
+  height: 535px;
 }
 .menu {
   display: flex;
@@ -18,8 +19,8 @@
   z-index: 5;
 }
 .main {
-  width: 222px;
-  height: 876px;
+  width: 320px;
+  height: 455px;
   background: #ffffff;
 }
 .swiper a,
@@ -41,15 +42,6 @@
   filter: invert(75%);
   transition: filter 0.5s ease;
 }
-
-/*.menu__burgerX:hover,
-.menu__search:hover,
-.menu1__call:hover,
-.menu1__chat:hover,
-.menu1__profile:hover {
-  filter: invert(75%);
-  transition: filter 0.5s ease;
-}*/
 .menu__burgerX img,
 .menu__search img,
 .menu1__call img,
@@ -264,7 +256,7 @@
 .footer {
   position: absolute;
   width: 320px;
-  height: 180px;
+  height: 140px;
   top: 860px;
   left: 0px;
 }
@@ -376,7 +368,3 @@
   left: 0px;
   top: 0px;
 }
-
-
-
-
