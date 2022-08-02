@@ -16,7 +16,7 @@
 .menu1 {
   display: flex;
   justify-content: flex-start;
-  z-index: 5;
+  z-index: 100;
 }
 .main {
   width: 320px;
