@@ -1,0 +1,370 @@
+.body {
+  width: 320px;
+  height: 1024px;
+  margin: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 535px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu1 {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 5;
+}
+.main {
+  width: 320px;
+  height: 455px;
+  background: #ffffff;
+}
+.swiper a,
+.contact__mail,
+.submenu__lang a {
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #1b1c21;
+}
+.button {
+  border: none;
+}
+.button:hover {
+  filter: invert(75%);
+  transition: filter 0.5s ease;
+}
+.menu__burgerX img,
+.menu__search img,
+.menu1__call img,
+.menu1__chat img,
+.menu1__profile img {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  top: 0px;
+}
+
+.menu__burgerX {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 24px;
+  top: 23px;
+  border-radius: 20px;
+}
+.menu__group {
+  position: absolute;
+  height: 51px;
+  width: 97px;
+  left: 80.725830078125px;
+  top: 18.72607421875px;
+}
+.menu__search {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 256px;
+  top: 23px;
+  border-radius: 20px;
+}
+.menu__checkstatus {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 264px;
+  top: 24px;
+  border-radius: 20px;
+}
+.menu1__call {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 24px;
+  top: 804px;
+  border-radius: 20px;
+}
+.menu1__chat {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 80px;
+  top: 804px;
+  border-radius: 20px;
+}
+.menu1__profile {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 136px;
+  top: 804px;
+  border-radius: 20px;
+}
+.main__title {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  height: 32px;
+  width: 4px;
+  left: 4px;
+  top: 116px;
+}
+.main__icon {
+  position: absolute;
+  height: 32px;
+  width: 4px;
+  left: -2px;
+  top: 0px;
+}
+.mainMenu {
+  position: absolute;
+  height: 876px;
+  width: 222px;
+  left: 0px;
+  top: 116px;
+}
+.swiper {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.swiper a:hover,
+.submenu a:hover {
+  color: #7e7e82;
+}
+.swiper__text1 {
+  position: absolute;
+  height: 24px;
+  width: 120px;
+  left: 24px;
+  top: 4px;
+}
+.swiper__link1 {
+  position: absolute;
+  height: 24px;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text2 {
+  position: absolute;
+  height: 24px;
+  width: 132px;
+  left: 24px;
+  top: 60px;
+}
+.swiper__link2 {
+  position: absolute;
+  height: 24px;
+  width: 132px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text3 {
+  position: absolute;
+  height: 24px;
+  width: 198px;
+  left: 24px;
+  top: 115px;
+}
+.swiper__link3 {
+  position: absolute;
+  height: 24px;
+  width: 198px;
+  left: 0px;
+  top: 1px;
+}
+.swiper__text4 {
+  position: absolute;
+  height: 24px;
+  width: 149px;
+  left: 24px;
+  top: 172px;
+}
+.swiper__link4 {
+  position: absolute;
+  height: 24px;
+  width: 149px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text5 {
+  position: absolute;
+  height: 24px;
+  width: 85px;
+  left: 24px;
+  top: 228px;
+}
+.swiper__link5 {
+  position: absolute;
+  height: 24px;
+  width: 85px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text6 {
+  position: absolute;
+  height: 24px;
+  width: 130px;
+  left: 24px;
+  top: 284px;
+}
+.swiper__link6 {
+  position: absolute;
+  height: 24px;
+  width: 130px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text7 {
+  position: absolute;
+  height: 24px;
+  width: 188px;
+  left: 24px;
+  top: 340px;
+}
+.swiper__link7 {
+  position: absolute;
+  height: 24px;
+  width: 188px;
+  left: 0px;
+  top: 0px;
+}
+.swiper__text8 {
+  position: absolute;
+  height: 24px;
+  width: 72px;
+  left: 24px;
+  top: 396px;
+}
+.swiper__link8 {
+  position: absolute;
+  height: 24px;
+  width: 72px;
+  left: 0px;
+  top: 0px;
+}
+.footer {
+  position: absolute;
+  width: 320px;
+  height: 140px;
+  top: 860px;
+  left: 0px;
+}
+.contact a,
+.submenu__lang a {
+  text-decoration: none;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.contact__text {
+  position: absolute;
+  height: 24px;
+  width: 106px;
+  left: 24px;
+  top: 0px;
+}
+.contact__mail {
+  position: absolute;
+  height: 24px;
+  width: 106px;
+  left: 0px;
+  top: 0px;
+
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #1b1c21;
+}
+.contact__text1 {
+  position: absolute;
+  height: 32px;
+  width: 196px;
+  left: 24px;
+  top: 26px;
+}
+.contact__tel {
+  position: absolute;
+  height: 32px;
+  width: 196px;
+  left: 0px;
+  top: 10px;
+
+  font-family: TT Lakes;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  color: #1b1c21;
+}
+.submenu__lang {
+  display: flex;
+  justify-content: flex-start;
+
+  position: absolute;
+  height: 24px;
+  width: 87px;
+  left: 1px;
+  top: 92px;
+
+  list-style-type: none;
+  color: #1b1c21;
+}
+.submenu__lang_ru {
+  position: absolute;
+  height: 24px;
+  width: 25px;
+  left: 24px;
+  top: 0px;
+}
+.contact__lang {
+  position: absolute;
+  height: 24px;
+  width: 25px;
+  left: 0px;
+  top: 0px;
+}
+.submenu__lang_en {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 56px;
+  top: 0px;
+}
+.contact__lang1 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+}
+.submenu__lang_ch {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 87px;
+  top: 0px;
+}
+.contact__lang2 {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+}
