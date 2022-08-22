@@ -67,6 +67,8 @@
 .button:hover {
   filter: invert(75%);
   transition: filter 0.5s ease;
+    cursor: pointer;
+
 }
 .menu__burgerX {
   position: absolute;
